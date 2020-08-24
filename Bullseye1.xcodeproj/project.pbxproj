@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D65C2C6924F36CE700D98F1C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65C2C6824F36CE700D98F1C /* SwiftUIView.swift */; };
+		D65C2C6B24F373C300D98F1C /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65C2C6A24F373C300D98F1C /* AboutView.swift */; };
 		D67BB5A324F31084003C0262 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67BB5A224F31084003C0262 /* AppDelegate.swift */; };
 		D67BB5A524F31084003C0262 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67BB5A424F31084003C0262 /* SceneDelegate.swift */; };
 		D67BB5A724F31084003C0262 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67BB5A624F31084003C0262 /* ContentView.swift */; };
@@ -16,7 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D67BB59F24F31084003C0262 /* Bullseye1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65C2C6824F36CE700D98F1C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		D65C2C6A24F373C300D98F1C /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		D67BB59F24F31084003C0262 /* Bullseye🎯.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bullseye🎯.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D67BB5A224F31084003C0262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D67BB5A424F31084003C0262 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D67BB5A624F31084003C0262 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,7 +52,7 @@
 		D67BB5A024F31084003C0262 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D67BB59F24F31084003C0262 /* Bullseye1.app */,
+				D67BB59F24F31084003C0262 /* Bullseye🎯.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +63,8 @@
 				D67BB5A224F31084003C0262 /* AppDelegate.swift */,
 				D67BB5A424F31084003C0262 /* SceneDelegate.swift */,
 				D67BB5A624F31084003C0262 /* ContentView.swift */,
+				D65C2C6A24F373C300D98F1C /* AboutView.swift */,
+				D65C2C6824F36CE700D98F1C /* SwiftUIView.swift */,
 				D67BB5A824F31086003C0262 /* Assets.xcassets */,
 				D67BB5AD24F31086003C0262 /* LaunchScreen.storyboard */,
 				D67BB5B024F31086003C0262 /* Info.plist */,
@@ -92,7 +98,7 @@
 			);
 			name = Bullseye1;
 			productName = Bullseye1;
-			productReference = D67BB59F24F31084003C0262 /* Bullseye1.app */;
+			productReference = D67BB59F24F31084003C0262 /* Bullseye🎯.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,6 +107,9 @@
 		D67BB59724F31084003C0262 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Thanh Pham";
@@ -148,7 +157,9 @@
 			files = (
 				D67BB5A324F31084003C0262 /* AppDelegate.swift in Sources */,
 				D67BB5A524F31084003C0262 /* SceneDelegate.swift in Sources */,
+				D65C2C6924F36CE700D98F1C /* SwiftUIView.swift in Sources */,
 				D67BB5A724F31084003C0262 /* ContentView.swift in Sources */,
+				D65C2C6B24F373C300D98F1C /* AboutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye1/Preview Content\"";
+				DEVELOPMENT_TEAM = FW6TJGB6H7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Bullseye1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,7 +305,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Bullseye1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bullseye🎯";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +317,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye1/Preview Content\"";
+				DEVELOPMENT_TEAM = FW6TJGB6H7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Bullseye1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Bullseye1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bullseye🎯";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
